@@ -1,0 +1,80 @@
+
+
+/* -- Gerais -- */
+@font-face{font-family: OratorStd; src: url('fonte/OratorStd.otf')}
+body{background:url(../imagens/bg.png) no-repeat #fff center top; font-family: OratorStd, sans-serif; color:#464443; font-size:14px}
+#Container{width:1000px; margin:0 auto}
+h1{z-index:999}
+h1 img{border:none}
+a{color:#d3c9ad}
+.mask{width:100%; background:#000; opacity:0.8; position:fixed; top:0; left:0; display:none}
+.acima{z-index:9999}
+.corVermelha{color:red}
+.corVerde{color:green}
+.center{width:100%; text-align:center; margin:15px 0 15px 0!important}
+
+/* -- Topo -- */
+#Topo{background:url(../imagens/bgDivSlider.png); width:1000px; margin-top:30px; height:255px; display:inline-block}
+#Corinthians{text-align:center; margin:0; margin:-35px 0 0 422px; padding:0; position:absolute}
+
+/* -- Menu -- */
+#Menu{position:fixed; margin:0; padding:10px 60px; list-style:none; background: rgba(0, 0, 0, 0.70); opacity:0.8; bottom:0; font-size:18px}
+#Menu li{display:inline; margin:0; margin-left:45px}
+#Menu li:first-child{margin-left:0}
+#Menu a{color:#d1c7ab; text-decoration:none}
+#Menu a:hover{text-decoration:underline}
+
+/* -- Slider --*/
+#Slider{width:485px; height:226px; background:url(../imagens/bgSlider.png); margin:15px; list-style:none; padding:0}
+.callbacks_container{display:inline-block; width:485px; float:left}
+#Slider li{margin:0; padding:0; width:484px; height:226px}
+#Slider .info{background: rgba(0, 0, 0, 0.70); color:#e5dbbf; position:absolute; width:236px; height:192px; padding:17px; margin:-230px 0 0 215px}
+#Slider .info h3{color:#fff; font-size:23px; margin:10px 0; text-transform:uppercase}
+#Slider .info span{margin:5px 0; width:100%; display:inline-block}
+.prev, .next{position:absolute; width:28px; height:23px; display:block; text-indent:-9999px}
+.prev{background:url(../imagens/bgEsq.png) top right; margin:-38px 0 0 446px}
+.next{background:url(../imagens/bgDir.png) top left; margin:-38px 0 0 472px}
+
+/* -- Carousel -- */
+#Jogos{display:inline-block; float:left; margin:10px 0 0 108px; color:#fff}
+#Jogos h3{text-transform:uppercase; width:100%; font-weight:normal; margin-left:20px; text-align:center}
+#Jogos .bx-window{width:345px; background: rgba(255,255,255,0.2); margin:0 0 0 20px; padding:0}
+#Jogos ul{float:left; margin:0; padding:0}
+#Jogos li{padding:10px 20px; margin:0; width:305px}
+#Jogos div{width:315px}
+#Jogos img{display:inline-block; float:left}
+#Jogos span.info{width:149px; margin:0 10px; display:inline-block; float:left; text-align:center}
+#Jogos span.resultado{font-size:42px; margin-top:-5px}
+#Jogos span.data{font-size:14px}
+#Jogos .bx-prev, #Jogos .bx-next{text-indent:-99999999999999px; width:18px; height:41px; position:absolute}
+#Jogos .bx-prev{background:url(../imagens/setaEsq.png) no-repeat; margin:-68px 0 0 0}
+#Jogos .bx-next{background:url(../imagens/setaDir.png) no-repeat; margin:-68px 0 0 367px}
+
+/* -- Quiz -- */
+#Quiz{text-align:center; color:#fff; width:345px; display:inline-block; margin:20px 0 0 128px}
+#JanelaQuiz{background:rgb(209,199,171); color:#262321; border:solid 1px #262321; width:400px; height:300px; position:absolute; top:-400px; padding:10px}
+#JanelaQuiz *{margin:3px}
+#JanelaQuiz input.botao{padding:3px; border:1px solid #999; cursor:pointer}
+#JanelaQuiz span{margin:20px 0; float:left; width:100%}
+#JanelaQuiz #Mensagem{width:100%; text-align:center; float:left; margin:30px 0}
+
+/* -- Conteudo --*/
+#Conteudo{width:1000px; overflow:hidden}
+
+/* -- Formulário -- */
+.formulario{margin:10px 0 0 145px}
+.formulario *{margin:3px}
+.formulario label, .formulario input, .formulario textarea{float:left; color:#333}
+.formulario input, .formulario textarea{padding:3px; border:1px solid #999; width:200px}
+.formulario .vermelho{border:1px solid red}
+.formulario label{clear:left; width:100px; text-align:right}
+.formulario .coluna{float:left}
+.formulario .botao{float:right; clear:left; width:auto; cursor:pointer}
+.formulario .botao:hover{background:#fff}
+.formulario .mensagem{width:100%; text-align:left; margin:5px 0 5px 110px; font-size:11px; color:red}
+
+
+
+
+
+

@@ -1,0 +1,30 @@
+<!DOCTYPE HTML>
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8">
+        <title>Corinthians - Contato</title>
+    
+    </head>
+
+    <body>
+    
+        <div id="Conteudo" class="formulario">
+            <form name="conteudo">
+            	<label class="mensagem">(*) Campos obrigatórios</label>
+                <div class="coluna">
+                    <label>Nome*:</label> <input type="text" name="Nome" id="Nome" onBlur="TesteCampoVazio(this);" onkeypress='return ApenasLetras(event);'/>
+                    <label>Sobrenome*:</label> <input type="text" name="Sobrenome" id="Sobrenome" onBlur="TesteCampoVazio(this);" onkeypress='return ApenasLetras(event);'/> 
+                    <label>Cidade:</label> <input type="text" name="Cidade" id="Cidade"/>
+                    <label>Telefone*:</label> <input type="text" name="Telefone" id="Telefone" class="telefone" onBlur="TesteCampoVazio(this);" onkeypress='return ApenasNumeros(event);'/>
+                    <label>Email*:</label> <input type="text" name="Email" id="Email" onBlur="ValidarEmail(this);"/>
+                </div>
+                <div class="coluna">
+                	<label>Assunto:</label> <input type="text" name="Assunto" id="Assunto"/>
+                    <label>Mensagem:*</label> <textarea rows="4" cols="30" onBlur="TesteCampoVazio(this);" id="Mensagem"></textarea>
+                    <input type="button" value="Enviar" class="botao" onClick="ValidarFormulario();"/>
+                </div>
+            </form>	
+        </div>
+    
+    </body>
+</html>
